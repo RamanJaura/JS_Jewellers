@@ -1,0 +1,98 @@
+
+    body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Raleway", sans-serif
+    }
+    hr{
+      color: grey;
+      border: dotted;
+      border-width: 6px;
+      border-bottom: none;
+      width: 99%;
+      margin: 25px auto 25px auto;
+     
+      
+  }
+  .design{
+    text-align: center;
+    font-weight: bold;
+  }
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    /* Full height image header */
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("https://images.pexels.com/photos/10976653/pexels-photo-10976653.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+      min-height: 100%;
+    }
+    .w3-bar-item-logo{
+
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.w3-jumbo-txt{
+    
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 3.8rem;
+}
+.w3-xxlarge-hide{
+  font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 3.2rem;
+}
+.w3-large-txt{
+  font-size: 1.5rem;
+}
+.w3-right{
+    padding-top: 1.5%;
+}
+
+    .w3-button {
+      padding: 16px;
+    }
+   .w3-small-last{
+    font-size: 2.8rem;
+   }
+    .w3-bar{
+      position: fixed;
+  background-color: rgba(0,0,0,0.2);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 3px;
+    }
+ .w3-work{
+  text-align: center;
+ }
+
+.btn {
+  
+  background: #000000;
+  background-image: -webkit-linear-gradient(top, #000000, #2980b9);
+  background-image: -moz-linear-gradient(top, #000000, #2980b9);
+  background-image: -ms-linear-gradient(top, #000000, #2980b9);
+  background-image: -o-linear-gradient(top, #000000, #2980b9);
+  background-image: linear-gradient(to bottom, #000000, #2980b9);
+  -webkit-border-radius: 8PX;
+  -moz-border-radius: 8PX;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #85705e;
+  background-image: -webkit-linear-gradient(top, #85705e, #544954);
+  background-image: -moz-linear-gradient(top, #85705e, #544954);
+  background-image: -ms-linear-gradient(top, #85705e, #544954);
+  background-image: -o-linear-gradient(top, #85705e, #544954);
+  background-image: linear-gradient(to bottom, #85705e, #544954);
+  text-decoration: none;
+}
+.submit-btn{
+  text-align: center;
+}

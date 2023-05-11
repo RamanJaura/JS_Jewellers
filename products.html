@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>💎JS PRODUCTS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/b4a55f5dd9.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/styles.css">
+    
+    
+  </head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar  w3-card" id="myNavbar">
+    <a href="/index.html" class="w3-bar-item-logo w3-button w3-wide"><img src="images/diamond.png" width="20%" height="20%">JS Jewellers </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="/about.html" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#PRODUCTS" class="w3-bar-item w3-button"><i class="fa fa-th"></i> WORK</a>
+      <a href="/products.html"  class="w3-bar-item w3-button"><i class="fa-solid fa-cart-shopping"></i> PRODUCTS</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item-bars w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars fa-2xl"></i>
+    </a>
+  </div>
+</div>
+
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="/about.html" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="/products.html" onclick="w3_close()" class="w3-bar-item w3-button"></i>PRODUCTS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Products Section -->
+<div class="w3-container" style="padding:128px 16px" id="home">
+  <h2 class="w3-center">Top Sellers</h2>
+  <p class="w3-center w3-large">Check out the products that our customers love the most</p>
+
+
+  <div class="w3-row-padding" style="margin:60px">
+    <h2 class="w3-center">for MEN</h2>
+    <br/>
+    <hr size="3" noshade>
+
+  <div class="w3-col l3 m6 w3-margin-bottom ">
+    <div class="w3-card">
+      <img src="images/b7.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+      <div class="w3-container">
+        <h3>Golden bangle</h3>
+        <h2>₹8000/pc </h2>
+        <p>Men  |  Bangles</p>
+        <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+      </div>
+    </div>
+  </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+          <img src="images/b13.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <div class="w3-container">
+            <h3>Silver Chain</h3>
+            <h2>₹4000/pc </h2>
+            <p>Men  |  chain</p>
+          <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/b14.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container">
+          <h3>Silver Logo bangles</h3>
+          <h2>₹4500/pc </h2>
+          <p>Men  |  Bangles</p>
+          <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/b5.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container">
+          <h3>Gold Man's bangle</h3>
+          <h2>₹4000/pc </h2>
+          <p>Men  |  Bangles</p>
+          <p><button class="w3-button w3-light-grey w3-block"><a href=""></a> Buy</button></p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+    
+  <div class=w3-row-padding style=margin:60px>
+    <h2 class="w3-center">For WOMEN</h2>
+    <br/>
+    <hr size="3" noshade>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/b2.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container">
+          <h3>widen Bracelet</h3>
+          <h2>₹4000/pc </h2>
+          <p>Women  |  Bangles</p>
+          <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/b6.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container">
+          <h3>leaf cutting bangles</h3>
+          <h2>₹4000/pc </h2>
+          <p>Women  |  Bangles</p>
+          <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/b16.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container">
+          <h3>Pandora</h3>
+          <h2>₹7000/pc </h2>
+          <p>Women  |  Bangles</p>
+          <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="images/b4.jpg"" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container">
+          <h3>Pandora</h3>
+          <h2>₹7500/pc </h2>
+          <p>Women  |  Bangles</p>
+          <p><button class="w3-button w3-light-grey w3-block">Buy</button></p>
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+
+    <!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <hr size="3" noshade>
+  <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+  
+  <div style="margin-top:48px">
+    <p><i class="fa fa-solid fa-location-dot fa-fw w3-xxlarge w3-margin-right"></i> Sunam,Punjab, INDIA</p>
+    <p><i class="fa fa-duotone fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +91 9872192409</p>
+    <p><i class="fa fa-solid fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: Jspbangles@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+     <BR/>
+
+      <p class="submit-btn">
+        <a class="btn" href="mailto:name@ramanjaura03@gmail.com"><i class="fa fa-paper-plane"></i> SEND MESSAGE</a></p>
+    </form>
+</div>
+</div>
+
+    <!-- Image of location/map -->
+    <div>
+    <img src="https://www.w3schools.com/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%; margin-top:48px";>
+  </div>
+
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+
+<div class="w3-center w3-black w3-padding-64" id="footer">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity" href="https://www.facebook.com/profile.php?id=100008447327569"></i>
+    <i class="fa fa-instagram w3-hover-opacity" href="https://www.instagram.com/js_jewellers_sunam/"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-whatsapp w3-hover-opacity"></i>
+  </div>
+ <p class="w3-small-last">JS  JEWELLERS</p>
+ <a class="w3-button w3-round-xxlarge w3-large w3-light-grey w3-margin-bottom" href="#products" target="_blank">Start now</a>
+ <div class="copyright">
+ <p>@2023 Raman Jaura</p>
+</div>
+ </div>
+
+ <script 
+ type="text/javascript"
+ src="https://d3mkw6s8thqya7.cloudfront.net/integration-plugin.js"
+ id="aisensy-wa-widget"
+ widget-id="ATBe8a"
+>
+</script>
+
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
