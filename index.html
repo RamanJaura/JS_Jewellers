@@ -39,7 +39,7 @@
 
 
 <!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-large w3-hide-large" style="display:none" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
   <a href="#products" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
@@ -101,9 +101,13 @@
 <!-- Promo Section - "We know design" -->
 <div class="w3-container w3-light-grey" style="padding:128px 16px">
   <div class="w3-row-padding" id="about">
+    <h2 class=" design w3-center">Who We are!</h2>
+    <hr size="3" noshade>
+    <br/>
+
     <div class="w3-work w3-col m6">
       <h3 class="design">Brand Story.</h3> 
-      <hr size="3" noshade>
+      <hr size="6" black>
       <br/>
       <h3 > Initial Foray</h3><br/>
       <p>
@@ -158,8 +162,6 @@
       <br/>
       <br/>
       <img class="w3-logo-t w3-image w3-round-large" src="images/logo_transparent.png" alt="Buildings" width="350" height="354">
-    
-      <h2 class="hm">Hallmark with purity</h2>
     </div>
   </div>
 </div>
@@ -186,51 +188,66 @@
 </div>
 
 <!-- Products Section -->
-<div class="w3-container" style="padding:128px 16px" id="products">
+<div class="w3-container" style="padding:120px 16px" id="products">
   <h2 class=" design w3-center">Top Sellers</h2>
   <hr size="3" noshade>
   <p class="w3-center w3-large">Check out the products that our customers love the most</p>
   <div id="myBtnContainer">
-    <button class="btn active" onclick="filterSelection('all')"> All</button>
-    <button class="btn" onclick="filterSelection('Women')"> Women</button>
-    <button class="btn" onclick="filterSelection('Men')"> Men</button>
+    <button class="btn active" onclick="filterSelection('column')"> All</button>
+    <button class="btn " onclick="filterSelection('women')"> Women</button>
+    <button class="btn" onclick="filterSelection('gents')"> Men</button>
     <button class="btn" onclick="filterSelection('kids')"> Kids</button>
   </div>
   
   <!-- Portfolio Gallery Grid -->
   <div class="row">
 
-    <div class=w3-row-padding style=margin:20px>
-    <div class="column all w3-col l3 m6 w3-margin-bottom" >
+    <div class=w3-row-padding style="margin:10px 10px">
+      <div class="column women w3-col l3 m6 w3-margin-bottom" >
+        <div class="content">
+          <img src="images/b4.jpg" alt="Car" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <h4>pandora</h4>
+          <p>₹8000/pc</p>
+        </div>
+      </div>
+    
+    <div class="column women w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
-        <img src="images/b1.jpg" alt="Mountains" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
-        <h4>stunning silver bangle</h4>
-        <p>₹3000/pc</p>
+        <img src="images/b8.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <h4>Rajwadi look</h4>
+        <p>₹3500/pc</p>
       </div>
     </div>
-    <div class="column all w3-col l3 m6 w3-margin-bottom" >
+    <div class="column women w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b2.jpg" alt="Lights" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         <h4>sunshine gajra</h4>
         <p>₹5000/pc</p>
       </div>
     </div>
-    <div class="column all w3-col l3 m6 w3-margin-bottom" >
+    <div class="column gents w3-col l3 m6 w3-margin-bottom" >
+      <div class="content">
+        <img src="images/b1.jpg" alt="Mountains" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" >
+        <h4>stunning silver bangle</h4>
+        <p>₹3000/pc</p>
+      </div>
+    </div>
+    <div class="column women w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b3.jpg" alt="Nature" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         <h4>trendy charms pandora</h4>
         <p>₹8500/pc</p>
       </div>
     </div>
-  
-    <div class="column women w3-col l3 m6 w3-margin-bottom" >
+    <div class="column kids w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
-        <img src="images/b4.jpg" alt="Car" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <h4>pandora</h4>
-        <p>₹8000/pc</p>
+        <img src="images/b14.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <h4>awesome Logo</h4>
+        <p>₹4000/pc</p>
       </div>
     </div>
-    <div class="column women w3-col l3 m6 w3-margin-bottom" >
+ 
+    <div class="column gents w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b5.jpg" alt="Car" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         <h4>traditional one</h4>
@@ -245,21 +262,15 @@
       </div>
     </div>
   
-    <div class="column men w3-col l3 m6 w3-margin-bottom" >
+    <div class="column gents w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b7.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         <h4>Sikhi</h4>
         <p>₹4500/pc</p>
       </div>
     </div>
-    <div class="column men w3-col l3 m6 w3-margin-bottom" >
-      <div class="content">
-        <img src="images/b8.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <h4>Rajwadi look</h4>
-        <p>₹3500/pc</p>
-      </div>
-    </div>
-    <div class="column men w3-col l3 m6 w3-margin-bottom" >
+   
+    <div class="column gents w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b9.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         <h4>extra-ordinary Logo</h4>
@@ -273,7 +284,7 @@
         <p>₹3000/pc</p>
       </div>
     </div>
-    <div class="column kids w3-col l3 m6 w3-margin-bottom" >
+    <div class="column gents w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b11.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         <h4>Black-radium bangle</h4>
@@ -287,6 +298,21 @@
         <p>₹3000/pc</p>
       </div>
     </div>
+   
+    <div class="column women w3-col l3 m6 w3-margin-bottom" >
+      <div class="content">
+        <img src="images/b15.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <h4>Elegent bangles</h4>
+        <p>₹2000/pc</p>
+      </div>
+    </div>
+    <div class="column women w3-col l3 m6 w3-margin-bottom" >
+      <div class="content">
+        <img src="images/b16.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <h4>stunnig Pandora</h4>
+        <p>₹8000/pc</p>
+      </div>
+    </div>
     <div class="column kids w3-col l3 m6 w3-margin-bottom" >
       <div class="content">
         <img src="images/b13.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
@@ -294,27 +320,7 @@
         <p>₹3500/pc</p>
       </div>
     </div>
-    <div class="column kids w3-col l3 m6 w3-margin-bottom" >
-      <div class="content">
-        <img src="images/b14.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <h4>awesome Logo</h4>
-        <p>₹4000/pc</p>
-      </div>
-    </div>
-    <div class="column kids w3-col l3 m6 w3-margin-bottom" >
-      <div class="content">
-        <img src="images/b15.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <h4>Elegent bangles</h4>
-        <p>₹2000/pc</p>
-      </div>
-    </div>
-    <div class="column kids w3-col l3 m6 w3-margin-bottom" >
-      <div class="content">
-        <img src="images/b16.jpg" alt="People" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <h4>stunnig Pandora</h4>
-        <p>₹8000/pc</p>
-      </div>
-    </div>
+  
   <!-- END GRID -->
   </div>
 
@@ -339,11 +345,12 @@
 
 
 
-
+<br/>
+<br/>
 <!-- Contact Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+<div class="w3-container w3-light-grey" style="padding:5px" id="contact">
   <h3 class=" design w3-center">CONTACT</h3>
-  <hr size="3" noshade>
+  <hr size="3" sky-blue>
   <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
   
   <div style="margin-top:48px">
