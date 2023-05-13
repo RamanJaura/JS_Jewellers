@@ -8,23 +8,19 @@
       border-width: 6px;
       border-bottom: none;
       width: 99%;
-      margin: 25px auto 25px auto;
+      
      
       
   }
  
   
   body {
-    background-color: #f1f1f1;
-    padding: 2px;
+    
     font-family: Arial;
   }
   
   /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-  }
+
   
   h1 {
     font-size: 50px;
